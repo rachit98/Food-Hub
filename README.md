@@ -1,4 +1,4 @@
-# my_app
+# FoodHub
 
 A new Flutter project.
 
