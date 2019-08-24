@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import './restaurant.dart';
+import './detail.dart' as detail;
 
 class FoodiePage extends StatelessWidget {
   final List<Restaurant> RestaurantList = [
@@ -66,6 +67,17 @@ class FoodiePage extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.only(top: 4.0, bottom: 4.0),
                   child: Row(children: <Widget>[
+                    RaisedButton(
+                      color: Colors.lightBlue[100],
+                      child: Text('Book Table'),
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (BuildContext context) =>
+                                    detail.DetailPage()));
+                      },
+                    ),
                     Spacer(),
                     Text(
                       Res.rating.toString(),

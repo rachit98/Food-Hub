@@ -36,7 +36,7 @@ class _FirstPage extends State<FirstPage> with SingleTickerProviderStateMixin {
           controller: controller,
           tabs: <Widget>[
             new Tab(
-              icon: new Icon(Icons.home),
+              icon: new Icon(Icons.restaurant),
             ),
             new Tab(
               icon: new Icon(Icons.favorite),
@@ -45,7 +45,7 @@ class _FirstPage extends State<FirstPage> with SingleTickerProviderStateMixin {
               icon: new Icon(Icons.history),
             ),
             new Tab(
-              icon: new Icon(Icons.lock),
+              icon: new Icon(Icons.account_circle),
             ),
           ],
         ),
