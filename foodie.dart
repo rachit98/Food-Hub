@@ -68,14 +68,14 @@ class FoodiePage extends StatelessWidget {
                   padding: const EdgeInsets.only(top: 4.0, bottom: 4.0),
                   child: Row(children: <Widget>[
                     RaisedButton(
-                      color: Colors.lightBlue[100],
+                      color: Colors.pink[50],
                       child: Text('Book Table'),
                       onPressed: () {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
                                 builder: (BuildContext context) =>
-                                    detail.DetailPage()));
+                                    detail.DetailPage(Res.name)));
                       },
                     ),
                     Spacer(),

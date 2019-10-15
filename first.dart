@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import './account.dart' as account;
 import './favorite.dart' as favorite;
 import './foodie.dart' as foodie;
@@ -28,7 +27,7 @@ class _FirstPage extends State<FirstPage> with SingleTickerProviderStateMixin {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.purple[100],
       appBar: AppBar(
         title: Text('FoodHub'),
         //backgroundColor: Colors.deepPurple,
@@ -39,7 +38,7 @@ class _FirstPage extends State<FirstPage> with SingleTickerProviderStateMixin {
               icon: new Icon(Icons.restaurant),
             ),
             new Tab(
-              icon: new Icon(Icons.favorite),
+              icon: new Icon(Icons.explore),
             ),
             new Tab(
               icon: new Icon(Icons.history),

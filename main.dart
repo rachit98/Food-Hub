@@ -11,8 +11,8 @@ class MyApp extends StatelessWidget {
       title: 'FoodHub',
       theme: ThemeData(
           brightness: Brightness.light,
-          primarySwatch: Colors.deepOrange,
-          accentColor: Colors.orange),
+          primarySwatch: Colors.purple,
+          accentColor: Colors.purple[50]),
       home: AuthPage(),
     );
   }

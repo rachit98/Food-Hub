@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import './auth.dart' as auth;
 
+
 class AccountPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -8,6 +9,7 @@ class AccountPage extends StatelessWidget {
     return new Container(
       child: new Center(
           child: RaisedButton(
+            color: Colors.pink[50],
         child: Text('SIGN OUT'),
         onPressed: () {
           Navigator.pushReplacement(
