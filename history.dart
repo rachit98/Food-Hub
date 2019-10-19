@@ -6,7 +6,7 @@ class HistoryPage extends StatelessWidget {
     // TODO: implement build
     return new Container(
       child: new Center(
-        child: new Text('Previous Reservation'),
+        child: new Text('No Previous Reservation'),
       ),
     );
   }
